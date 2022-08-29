@@ -26,7 +26,12 @@ class ProductosController extends Controller
     {
         return view('Productos/registro');
     }
+    public function list()
+    {
+        $produc = Productos::all();
 
+        return view('Productos/list', compact('produc'));
+    }
     public function guardar(Request $request)
 {
     $producto=new Productos();

@@ -94,7 +94,7 @@
                                 </li>
                                
                                 <li class="nav-item">
-                                    <a href="" class="nav-link ">
+                                    <a href="{{ route('productos.list') }}" class="nav-link ">
                                         <i class="fas fa-fw fa-clipboard-list"></i>
                                         <p>Listado de Productos</p>
                                     </a>

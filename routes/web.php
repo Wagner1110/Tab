@@ -19,10 +19,9 @@ Route::get('/', function () {
 });
 
 //PRODUCTOS
-Route::get('/Productos/registro',[ProductosController::
-class,'create'])->name('productos.registro');
-Route::POST('/Productos/guardar',[ProductosController::
-class,'guardar'])->name('productos.guardar');
+Route::get('/Productos/registro',[ProductosController::class,'create'])->name('productos.registro');
+Route::get('/Productos/list',[ProductosController::class,'list'])->name('productos.list');
+Route::POST('/Productos/guardar',[ProductosController::class,'guardar'])->name('productos.guardar');
 
 
 
