@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProductosController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,6 +17,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('principal');
 });
+
+//PRODUCTOS
+Route::get('/Productos/registro',[ProductosController::
+class,'create'])->name('productos.registro');
+Route::POST('/Productos/guardar',[ProductosController::
+class,'guardar'])->name('productos.guardar');
+
+
+
+
 /*
 Route::get('/empresa/create', [EmpresaController::class, 'create'])->name('empresa.crear');
 */

@@ -52,7 +52,7 @@
         <!-- Main Sidebar Container -->
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
-            <a href="" class="brand-link" style="margin-bottom:3px margin-top: 2px">
+            <a href="" class="brand-link">
                  <img src="" alt="AdminLTE Logo" width="30" height="30" class="brand-image img-rectangle "
                     style="opacity: .8 "> <label style="opacity:.9"></label>
             </a>
@@ -87,7 +87,7 @@
                             <ul class="nav nav-treeview">
                               
                                 <li class="nav-item">
-                                    <a href="" class="nav-link">
+                                    <a href="{{ route('productos.registro') }}" class="nav-link">
                                         <i class="fas fa-fw fa-pen"></i>
                                         <p>Registro</p>
                                     </a>
@@ -104,100 +104,7 @@
                             </ul>
                         </li>
                         
-                        <li class="nav-item ">
-                            <a href="#" class="nav-link ">
-                                <i class="fas fa-fw fa-shopping-cart"></i>
-                                <p>
-                                    Ventas
-                                    <i class="right fas fa-angle-left"></i>
-                                </p>
-                            </a>
-                            <ul class="nav nav-treeview">
-                              
-                               <li class="nav-item">
-                                <a href="" class="nav-link">
-                                    <i class="fas fa-fw fa-pen"></i>
-                                    <p>Registro</p>
-                                </a>
-                            </li>
-                             
-                                <li class="nav-item">
-                                    <a href="" class="nav-link">
-                                        <i class="fas fa-fw fa-clipboard-list"></i>
-                                        <p>Listado de Ventas</p>
-                                    </a>
-                                </li>
-                              
-                                <li class="nav-item">
-                                    <a href="" class="nav-link">
-                                        <i class="fas fa-fw fa-clipboard-list"></i>
-                                        <p>Listado de Abonos</p>
-                                    </a>
-                                </li>
-                            
-                                <li class="nav-item">
-                                    <a href="" class="nav-link">
-                                        <i class="fas fa-fw fa-file"></i>
-                                        <p>Reportes</p>
-                                    </a>
-                                </li>
-                               
-                            </ul>
-                        </li>
-                       
-                        <li class="nav-item">
-                            <a href="#" class="nav-link ">
-                                <i class="fas fa-fw fa-exchange-alt"></i>
-                                <p>
-                                    Cambios
-                                    <i class="right fas fa-angle-left"></i>
-                                </p>
-                            </a>
-                            <ul class="nav nav-treeview">
-                              
-                                <li class="nav-item">
-                                    <a href="" class="nav-link">
-                                        <i class="fas fa-fw fa-pen"></i>
-                                        <p>Registro</p>
-                                    </a>
-                                </li>
-                                
-                                <li class="nav-item">
-                                    <a href="" class="nav-link">
-                                        <i class="fas fa-fw fa-clipboard-list"></i>
-                                        <p>Listado de Cambios</p>
-                                    </a>
-                                </li>
-                                
-                            </ul>
-                        </li>
-                       
-                        <li class="nav-item">
-                            <a href="#" class="nav-link ">
-                                <i class="fas fa-fw fa-users"></i>
-                                <p>
-                                    Usuarios
-                                    <i class="right fas fa-angle-left"></i>
-                                </p>
-                            </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="" class="nav-link">
-                                        <i class="fas fa-fw fa-clipboard-list"></i>
-                                        <p>Lista de usuarios</p>
-                                    </a>
-                                </li>
-                                
-                            </ul>
-                        </li>
-                       
-
-                        <li class="nav-item">
-                            <a href="" class="nav-link">
-                                <i class="nav-icon fas fa-power-off"></i>
-                                <p>Salir</p>
-                            </a>
-                        </li>
+                        
                 </nav>
                 <!-- /.sidebar-menu -->
             </div>
